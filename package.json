@@ -1,0 +1,26 @@
+{
+  "name": "symmetrical-octo-adventure",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "watch": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szened/symmetrical-octo-adventure.git"
+  },
+  "author": "szened",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szened/symmetrical-octo-adventure/issues"
+  },
+  "homepage": "https://github.com/szened/symmetrical-octo-adventure#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
